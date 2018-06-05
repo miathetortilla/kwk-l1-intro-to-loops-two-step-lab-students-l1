@@ -9,9 +9,6 @@ def first_steps
   puts "Stop"
   sleep(1)
 end
-  
-  # Write a loop that outputs "Right foot back", "Left foot back",
-  # "Right foot back", and "Stop", with sleep after each
 end
 
 def a_few_more_steps
@@ -33,9 +30,8 @@ def a_few_more_steps
   puts "Turn"
   sleep(1)
 end
-
-  # Write a loop that outputs the first two sets of steps in the Two-Step
 end
+
 
 def how_many_steps?
   steps = 0
@@ -48,9 +44,6 @@ if steps % 2 == 0
   puts "Right"
   sleep(0.5)
 end
-
-
-  # Write a loop that fulfills all criteria from Part 3 of the README.md
 end
 
 def break_dance
