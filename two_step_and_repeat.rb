@@ -57,8 +57,5 @@ if steps % 2 == 0
   sleep(0.5)
   if steps == 6
   break
-  
-  
-  # Write a solution that uses the same code as how_many_steps?, but breaks the
-  # loop if steps is equal to 6
-end
+ end
+ end
