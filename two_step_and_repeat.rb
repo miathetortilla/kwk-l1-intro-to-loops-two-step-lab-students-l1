@@ -8,6 +8,7 @@ def first_steps
   sleep(0.5)
   puts "Stop"
   sleep(1)
+  break
 end
 end
 
@@ -29,6 +30,7 @@ def a_few_more_steps
   sleep(0.5)
   puts "Turn"
   sleep(1)
+  break
 end
 end
 
@@ -46,4 +48,16 @@ if steps % 2 == 0
 end
 end
 
-
+def break_dance
+  loop do
+    steps += 1
+    puts steps
+      if steps % 2 == 0
+        puts "Left"
+      elsif
+        puts "Right"
+        sleep(0.5)
+      if steps == 6
+      break
+  end
+  end
