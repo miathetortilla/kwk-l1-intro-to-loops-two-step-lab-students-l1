@@ -38,9 +38,17 @@ end
 end
 
 def how_many_steps?
-  
-  
-  
+  steps = 0
+loop do
+  steps += 1
+puts steps
+if steps % 2 == 0
+  puts "Left"
+  elsif
+  puts "Right"
+  sleep(0.5)
+end
+
   
   
   
