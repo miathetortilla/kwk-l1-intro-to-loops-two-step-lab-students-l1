@@ -34,18 +34,6 @@ def a_few_more_steps
 end
 end
 
-def how_many_steps?
-  steps = 0
-loop do
-  steps += 1
-  puts steps
-if steps % 2 == 0
-  puts "Left"
-else
-  puts "Right"
-  sleep(0.5)
-  break
-end
-end
+
 
 
