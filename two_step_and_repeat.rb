@@ -41,7 +41,7 @@ loop do
 puts steps
 while steps % 2 == 0
   puts "Left"
-elsif
+else
   puts "Right"
   sleep(0.5)
 end
