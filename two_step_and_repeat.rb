@@ -44,6 +44,7 @@ if steps % 2 == 0
 else
   puts "Right"
   sleep(0.5)
+  break
 end
 end
 
