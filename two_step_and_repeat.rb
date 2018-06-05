@@ -36,6 +36,7 @@ end
 
 def how_many_steps?
   steps = 0
+  
 loop do
   steps += 1
   puts steps
@@ -61,5 +62,10 @@ def break_dance
       break
   end
   end
+  
+  first_steps
+  a_few_more_steps
+  how_many_steps
+  break_dance
 
 
